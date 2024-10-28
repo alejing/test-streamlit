@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+
 def main_app():
     file_path = 'https://raw.githubusercontent.com/alejing/set-datos-visualizacion/refs/heads/main/insurance.csv'
     data = pd.read_csv(file_path)
